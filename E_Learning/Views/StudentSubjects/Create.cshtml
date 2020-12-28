@@ -1,0 +1,33 @@
+﻿@model IEnumerable<E_Learning.Models.SubjectClass>
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+<h1 class="alert alert-danger text-center"> @ViewBag.StuName</h1>
+<table class="table table-bordered table-striped ">
+    <tr class="">
+    
+        <th>
+            @Html.DisplayNameFor(model => model.Subject.SubName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Subject.SubName)
+        </td>
+        <td>
+            @Html.ActionLink("Rigster", "chooseTeacher", "StuSubTeas", new { id=item.SubLevelID },new { @class="btn btn-danger" }) 
+           
+        </td>
+    </tr>
+}
+
+</table>

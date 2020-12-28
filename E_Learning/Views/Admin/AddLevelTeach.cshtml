@@ -1,0 +1,25 @@
+﻿
+@model IEnumerable<E_Learning.Models.SubjectClass>
+
+@{
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    ViewBag.Title = "AddLevelTeach";
+}
+
+<h2>AddLevelTeach</h2>
+<h1 class="alert alert-danger text-center ">@ViewBag.subname </h1>
+
+
+
+@using (Html.BeginForm("AddLevelTeach", "Admin", new { id = ViewBag.teachid }, FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="save" class="btn btn-default" />
+        </div>
+    </div>
+
+}
+
+

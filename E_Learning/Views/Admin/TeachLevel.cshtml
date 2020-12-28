@@ -1,0 +1,46 @@
+﻿@model IEnumerable<E_Learning.Models.TeacherClass>
+
+@{
+   
+        Layout = "~/Views/Shared/AdminLayout.cshtml";
+        ViewBag.Title = "TeachLevel";
+}
+
+
+<h2 class="alert alert-warning text-center text-primary   ">
+   @ViewBag.teachName
+</h2>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Class.ClassName)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Class.ClassName)
+            </td>
+
+            <td>
+              
+                    @Html.ActionLink("Add Video", "CreateVideo", "Admin", new { id = item.TeaLevelID }, new { @class = "btn btn-warning" })
+               
+             
+                @Html.ActionLink("Show All Video", "IndexVideo", "Admin", new { id = item.TeaLevelID }, new { @class = "btn btn-primary" })
+
+            </td>
+        </tr>
+    }
+
+</table>
+<div>
+    @Html.ActionLink("Back to List", "IndexTeach", null, new { @class = "btn btn-outline-dark" })
+</div>

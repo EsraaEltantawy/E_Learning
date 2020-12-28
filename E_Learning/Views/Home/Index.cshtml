@@ -1,0 +1,363 @@
+﻿@model E_Learning.Models.repo
+
+@{
+
+    ViewBag.Title = "Home Page";
+
+
+}
+
+
+
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients section-bg">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="~/Template/assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Clients Section -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="~/Template/assets/img/about.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+                <h4>
+                    Together We Create a World That Works Better
+                </h4>
+                <p>
+                    Our members are professionals who help others achieve their potential by improving their knowledge  in the workplace. They go by many titles
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <i class="bx bx-receipt"></i>
+                        <h4>
+                            Explore Our Content
+                        </h4>
+                        <p>
+                            <ul>
+                                <li>
+                                    Thought leaders share ideas in articles and webcasts.
+                                </li>
+                                <li>
+                                    Interested in books or research?
+                                </li>
+                                <li>
+                                    Check out our award-winning magazines!
+                                </li>
+                               
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <i class="bx bx-cube-alt"></i>
+                        <h4>Vision and mission</h4>
+                        <p>
+                            <ul>
+                                <li>
+                                    Create a World That Works Better
+                                </li>
+                                <li>
+                                    Empower Professionals to Develop Talent in the Workplace
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End About Section -->
+<!-- ======= Counts Section ======= -->
+<section id="counts" class="counts section-bg">
+    <div class="container">
+
+        <div class="row counters">
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">232</span>
+                <p>Teachers</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">521</span>
+                <p>Courses</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">1,463</span>
+                <p>Students</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+                <span data-toggle="counter-up">15</span>
+                <p>Levels</p>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Counts Section -->
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Subjects</h2>
+            <p> </p>
+        </div>
+
+        <div class="row">
+
+            @foreach (var item in Model.SubjectClasses)
+            {
+
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box iconbox-yellow">
+                        <div class="icon">
+                            <i ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" d="M3.214 1.072C4.813.752 6.916.71 8.354 2.146A.5.5 0 0 1 8.5 2.5v11a.5.5 0 0 1-.854.354c-.843-.844-2.115-1.059-3.47-.92-1.344.14-2.66.617-3.452 1.013A.5.5 0 0 1 0 13.5v-11a.5.5 0 0 1 .276-.447L.5 2.5l-.224-.447.002-.001.004-.002.013-.006a5.017 5.017 0 0 1 .22-.103 12.958 12.958 0 0 1 2.7-.869zM1 2.82v9.908c.846-.343 1.944-.672 3.074-.788 1.143-.118 2.387-.023 3.426.56V2.718c-1.063-.929-2.631-.956-4.09-.664A11.958 11.958 0 0 0 1 2.82z" />
+    <path fill-rule="evenodd" d="M12.786 1.072C11.188.752 9.084.71 7.646 2.146A.5.5 0 0 0 7.5 2.5v11a.5.5 0 0 0 .854.354c.843-.844 2.115-1.059 3.47-.92 1.344.14 2.66.617 3.452 1.013A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.276-.447L15.5 2.5l.224-.447-.002-.001-.004-.002-.013-.006-.047-.023a12.582 12.582 0 0 0-.799-.34 12.96 12.96 0 0 0-2.073-.609zM15 2.82v9.908c-.846-.343-1.944-.672-3.074-.788-1.143-.118-2.387-.023-3.426.56V2.718c1.063-.929 2.631-.956 4.09-.664A11.956 11.956 0 0 1 15 2.82z" />
+</svg></i>
+                        </div>
+                        <h4>@item.Subject.SubName</h4>
+                        <p>@item.Notes</p>
+                    </div>
+                </div>
+
+            }
+
+
+
+        </div>
+
+    </div>
+    <a href="/Home/Subject#services" class="btn btn-outline-warning offset-10 mt-3">MORE SUBJECT </a>
+</section><!-- End Services Section -->
+
+<!-- ======= Cta Section ======= -->
+<section id="cta" class="cta">
+    <div class="container">
+
+        <div class="text-center">
+            <h3>Learning Remotly</h3>
+            <p>Remote learning is something a district should be able to switch off and on based on need
+            however , the efficiency of transitioning to remote learning is dependent on preparedness ,
+            technology tools, or overall student support infrastructure , Register to Show more</p>
+            <a class="cta-btn" href="/Account/Register">Join for free</a>
+        </div>
+
+    </div>
+</section><!-- End Cta Section -->
+<!-- ======= Testimonials Section ======= -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Comments...</h2>
+            <h1> You can leave your comments and impression about our materials here ...
+     </h1>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Template/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Teacher &amp; Researcher</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Template/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Student</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Template/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Student</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Template/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Teacher</h4>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="~/Template/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Visitor</h4>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Testimonials Section -->
+<!-- ======= Team Section ======= -->
+<section id="team" class="team section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Teachers</h2>
+            <p></p>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model.Teachers)
+            {
+
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="~/Image/Teachers/@item.TeachPhoto"  alt="@item.TeachName" width="300" height="200">
+                        <div class="social">
+                            <a href=""><i class="icofont-twitter"></i></a>
+                            <a href=""><i class="icofont-facebook"></i></a>
+                            <a href=""><i class="icofont-instagram"></i></a>
+                            <a href=""><i class="icofont-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>@item.TeachName</h4>
+                        <span>@item.Subject.SubName</span>
+                    </div>
+                </div>
+            </div>
+
+            }
+        </div>
+
+    </div>
+</section><!-- End Team Section -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <h1>We’re on hand to listen and advise and answer any questions you may have.</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="info-box">
+                            <i class="bx bx-map"></i>
+                            <h3>Our Address</h3>
+                            <p>Teraa Street , Mansoura City </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>esraab.eltantawy@gmail.com<br>matadoramr2020@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="info-box mt-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Call Us</h3>
+                            <p>+2 01094598453<br>+2 01063900175</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->

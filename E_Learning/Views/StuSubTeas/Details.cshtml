@@ -1,0 +1,42 @@
+﻿@model E_Learning.Models.StuSubTea
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StuSubTea</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ReDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentSubject.StuSubID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentSubject.StuSubID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teacher.TeachName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teacher.TeachName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.StuSubTeaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

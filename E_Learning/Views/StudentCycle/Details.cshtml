@@ -1,0 +1,43 @@
+﻿@model E_Learning.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<table id="pricing" class=" table table-striped ">
+    <tr class="text-center">
+        <td>
+            <img src="~/Image/Students/@Model.StuPhoto" class="img img-thumbnail " style="width:400px;height:300px;" />
+        </td>
+        <td>
+            <h1 class="alert alert-warning"> البيانات الشخصية </h1>
+            <p style="font-size:x-large ">
+
+                @Html.DisplayFor(model => model.StuName)
+            </p>
+            <p style="font-size:x-large ">
+                @Html.DisplayFor(model => model.StuMobile)
+            </p>
+
+
+            <p style="font-size:x-large ">
+                @Html.DisplayFor(model => model.StuAddress)
+            </p>
+            <p style="font-size:x-large ">
+                @Html.DisplayFor(model => model.StuAge)
+            </p>
+            <p style="font-size:x-large ">
+                @Html.DisplayFor(model => model.Class.ClassName)
+            </p>
+
+
+
+
+
+
+        </td>
+    </tr>
+</table>
+@Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-outline-dark" })
+
+@Html.ActionLink("تعديل", "Edit", null, new { @class = "btn btn-warning" })

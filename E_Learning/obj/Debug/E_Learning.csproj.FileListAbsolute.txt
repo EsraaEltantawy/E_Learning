@@ -1,0 +1,607 @@
+D:\Edu\E_Learning\E_Learning\bin\E_Learning.dll.config
+D:\Edu\E_Learning\E_Learning\bin\E_Learning.dll
+D:\Edu\E_Learning\E_Learning\bin\E_Learning.pdb
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csc.exe
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csc.exe.config
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csc.rsp
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csi.exe
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csi.exe.config
+D:\Edu\E_Learning\E_Learning\bin\roslyn\csi.rsp
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Edu\E_Learning\E_Learning\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.AppContext.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Collections.Immutable.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Console.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Globalization.Calendars.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Net.Http.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Net.Sockets.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Reflection.Metadata.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.ValueTuple.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Edu\E_Learning\E_Learning\bin\roslyn\vbc.exe
+D:\Edu\E_Learning\E_Learning\bin\roslyn\vbc.exe.config
+D:\Edu\E_Learning\E_Learning\bin\roslyn\vbc.rsp
+D:\Edu\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe
+D:\Edu\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe.config
+D:\Edu\E_Learning\E_Learning\bin\Antlr3.Runtime.dll
+D:\Edu\E_Learning\E_Learning\bin\EntityFramework.dll
+D:\Edu\E_Learning\E_Learning\bin\EntityFramework.SqlServer.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Web.Infrastructure.dll
+D:\Edu\E_Learning\E_Learning\bin\Newtonsoft.Json.dll
+D:\Edu\E_Learning\E_Learning\bin\Owin.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Helpers.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Mvc.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Optimization.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Razor.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.dll
+D:\Edu\E_Learning\E_Learning\bin\WebGrease.dll
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Helpers.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Mvc.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Optimization.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.Razor.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.xml
+D:\Edu\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.xml
+D:\Edu\E_Learning\E_Learning\bin\Newtonsoft.Json.xml
+D:\Edu\E_Learning\E_Learning\bin\Antlr3.Runtime.pdb
+D:\Edu\E_Learning\E_Learning\bin\EntityFramework.xml
+D:\Edu\E_Learning\E_Learning\bin\EntityFramework.SqlServer.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Edu\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Edu\E_Learning\E_Learning\obj\Debug\E_Learning.csprojAssemblyReference.cache
+D:\Edu\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CoreCompileInputs.cache
+D:\Edu\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CopyComplete
+D:\Edu\E_Learning\E_Learning\obj\Debug\E_Learning.dll
+D:\Edu\E_Learning\E_Learning\obj\Debug\E_Learning.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\E_Learning.dll.config
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\E_Learning.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\E_Learning.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.exe
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.exe.config
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.rsp
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.exe
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.exe.config
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.rsp
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.AppContext.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Console.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Net.Http.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.ValueTuple.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.exe
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.exe.config
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.rsp
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Antlr3.Runtime.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\EntityFramework.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\EntityFramework.SqlServer.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Newtonsoft.Json.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Helpers.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Mvc.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Optimization.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Razor.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\WebGrease.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Helpers.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Mvc.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Optimization.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.Razor.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Newtonsoft.Json.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Antlr3.Runtime.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\EntityFramework.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\EntityFramework.SqlServer.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CoreCompileInputs.cache
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CopyComplete
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.pdb
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\E_Learning.dll.config
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\E_Learning.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\E_Learning.pdb
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.exe
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.exe.config
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csc.rsp
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.exe
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.exe.config
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\csi.rsp
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.exe
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.exe.config
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\vbc.rsp
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Antlr3.Runtime.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\EntityFramework.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\EntityFramework.SqlServer.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Newtonsoft.Json.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Owin.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Helpers.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Mvc.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Optimization.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Razor.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\WebGrease.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Helpers.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Mvc.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Optimization.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.Razor.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Newtonsoft.Json.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Antlr3.Runtime.pdb
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\EntityFramework.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\EntityFramework.SqlServer.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csprojAssemblyReference.cache
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CoreCompileInputs.cache
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CopyComplete
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Options.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Buffers.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.ComponentModel.Annotations.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Memory.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Numerics.Vectors.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Options.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Buffers.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Memory.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Numerics.Vectors.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Options.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Buffers.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.ComponentModel.Annotations.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Memory.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Numerics.Vectors.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Options.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Buffers.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Memory.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Numerics.Vectors.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csprojAssemblyReference.cache
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Buffers.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Memory.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Amr Atef\OneDrive\E_Learning\E_Learning\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\E_Learning.csprojFakesResolveAssemblyReference.cache
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\fakes.args
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Antlr3.Runtime.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Antlr3.Runtime.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\cs\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\de\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\EntityFramework.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\EntityFramework.SqlServer.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\EntityFramework.SqlServer.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\EntityFramework.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\it\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\ko\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Configuration.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Identity.Core.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Logging.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Logging.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Options.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Options.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Primitives.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Extensions.Primitives.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.3.0.1.0.Fakes.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.3.0.1.0.Fakes.fakesconfig
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.3.0.1.0.Fakes.pdb
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.3.0.1.0.Fakes.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Google.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Google.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.Security.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Owin.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Microsoft.Web.Infrastructure.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Newtonsoft.Json.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Newtonsoft.Json.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\Owin.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\pl\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Buffers.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Buffers.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.ComponentModel.Annotations.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Memory.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Memory.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Numerics.Vectors.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Numerics.Vectors.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Threading.Tasks.Extensions.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Threading.Tasks.Extensions.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Helpers.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Helpers.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Mvc.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Mvc.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Optimization.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Optimization.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Razor.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.Razor.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.Deployment.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.Deployment.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.Razor.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.Razor.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\System.Web.WebPages.xml
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\tr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\WebGrease.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\b\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.ah
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.ch
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.cs
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.csproj
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.fakes
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.fakesconfig
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\f.snk
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\f.csproj.CopyComplete
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\f.csproj.CoreCompileInputs.cache
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\f.csproj.FileListAbsolute.txt
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\f.csprojAssemblyReference.cache
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\Microsoft.Owin.3.0.1.0.Fakes.dll
+C:\Users\Esraa Eltantawy\OneDrive\E_Learning\E_Learning\obj\Debug\Fakes\mo\o\Microsoft.Owin.3.0.1.0.Fakes.pdb
+D:\E_Learning\E_Learning\obj\Debug\E_Learning.csprojAssemblyReference.cache
+D:\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CoreCompileInputs.cache
+D:\E_Learning\E_Learning\obj\Debug\E_Learning.dll
+D:\E_Learning\E_Learning\obj\Debug\E_Learning.pdb
+D:\E_Learning\E_Learning\bin\E_Learning.dll.config
+D:\E_Learning\E_Learning\bin\E_Learning.dll
+D:\E_Learning\E_Learning\bin\E_Learning.pdb
+D:\E_Learning\E_Learning\bin\roslyn\csc.exe
+D:\E_Learning\E_Learning\bin\roslyn\csc.exe.config
+D:\E_Learning\E_Learning\bin\roslyn\csc.rsp
+D:\E_Learning\E_Learning\bin\roslyn\csi.exe
+D:\E_Learning\E_Learning\bin\roslyn\csi.exe.config
+D:\E_Learning\E_Learning\bin\roslyn\csi.rsp
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.Managed.Core.targets
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\E_Learning\E_Learning\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.AppContext.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Collections.Immutable.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Console.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Globalization.Calendars.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Net.Http.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Net.Sockets.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Reflection.Metadata.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.ValueTuple.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Xml.XmlDocument.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.dll
+D:\E_Learning\E_Learning\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\E_Learning\E_Learning\bin\roslyn\vbc.exe
+D:\E_Learning\E_Learning\bin\roslyn\vbc.exe.config
+D:\E_Learning\E_Learning\bin\roslyn\vbc.rsp
+D:\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe
+D:\E_Learning\E_Learning\bin\roslyn\VBCSCompiler.exe.config
+D:\E_Learning\E_Learning\bin\Antlr3.Runtime.dll
+D:\E_Learning\E_Learning\bin\EntityFramework.dll
+D:\E_Learning\E_Learning\bin\EntityFramework.SqlServer.dll
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.dll
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.dll
+D:\E_Learning\E_Learning\bin\Microsoft.Web.Infrastructure.dll
+D:\E_Learning\E_Learning\bin\Newtonsoft.Json.dll
+D:\E_Learning\E_Learning\bin\Owin.dll
+D:\E_Learning\E_Learning\bin\System.Web.Helpers.dll
+D:\E_Learning\E_Learning\bin\System.Web.Mvc.dll
+D:\E_Learning\E_Learning\bin\System.Web.Optimization.dll
+D:\E_Learning\E_Learning\bin\System.Web.Razor.dll
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.dll
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.dll
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.dll
+D:\E_Learning\E_Learning\bin\WebGrease.dll
+D:\E_Learning\E_Learning\bin\System.Web.Helpers.xml
+D:\E_Learning\E_Learning\bin\System.Web.Mvc.xml
+D:\E_Learning\E_Learning\bin\System.Web.Optimization.xml
+D:\E_Learning\E_Learning\bin\System.Web.Razor.xml
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.xml
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.Deployment.xml
+D:\E_Learning\E_Learning\bin\System.Web.WebPages.Razor.xml
+D:\E_Learning\E_Learning\bin\Newtonsoft.Json.xml
+D:\E_Learning\E_Learning\bin\Antlr3.Runtime.pdb
+D:\E_Learning\E_Learning\bin\EntityFramework.xml
+D:\E_Learning\E_Learning\bin\EntityFramework.SqlServer.xml
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Core.xml
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\E_Learning\E_Learning\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Facebook.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Cookies.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Google.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.Twitter.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\E_Learning\E_Learning\bin\Microsoft.Owin.Security.OAuth.xml
+D:\E_Learning\E_Learning\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\E_Learning\E_Learning\obj\Debug\E_Learning.csproj.CopyComplete

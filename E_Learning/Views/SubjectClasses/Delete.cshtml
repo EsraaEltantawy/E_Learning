@@ -1,0 +1,56 @@
+﻿@model E_Learning.Models.SubjectClass
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>SubjectClass</h4>
+    <hr />
+    <dl class="dl-horizontal text-center alert alert-danger">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Class.ClassName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Class.ClassName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.SubName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.SubName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger form-control" />
+
+
+        </div>
+        <br />
+
+        <div>
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-outline-dark" })
+        </div>
+    }
+</div>

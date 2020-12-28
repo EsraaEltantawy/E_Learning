@@ -1,0 +1,88 @@
+﻿@model IEnumerable<E_Learning.Models.Student>
+
+@{
+    ViewBag.Title = "StudentIndex";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>StudentIndex</h2>
+
+
+
+
+
+<div class="card-body">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-striped table-light text-center" id="dataTable" width="100%" cellspacing="0">
+            <thead class="bg-dark text-light ">
+                <tr>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuPhoto)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuMobile)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Class.ClassName)
+                    </th>
+
+                  
+                </tr>
+            </thead>
+            <tfoot class="bg-dark text-light">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuPhoto)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StuMobile)
+                    </th>
+
+                    <th>
+                        @Html.DisplayNameFor(model => model.Class.ClassName)
+                    </th>
+
+                    <th></th>
+                </tr>
+            </tfoot>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td  class="text-danger">
+                        @Html.DisplayFor(modelItem => item.StuName)
+                    </td>
+                    <td>
+                        <img src="~/Image/Students/@item.StuPhoto" width="100" height="100">
+
+                    </td>
+                    <td  class="text-success">
+                        @Html.DisplayFor(modelItem => item.StuMobile)
+                    </td>
+
+                    <td  class="text-warning">
+                        @Html.DisplayFor(modelItem => item.Class.ClassName)
+                    </td>
+
+                </tr>
+                }
+
+
+        </table>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+</script>

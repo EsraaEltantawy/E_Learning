@@ -1,0 +1,42 @@
+﻿@model IEnumerable<E_Learning.Models.TeacherClass>
+
+@{
+    ViewBag.Title = "ListOFTeacher";
+}
+<section id="pricing" class="pricing">
+    <div class="container">
+
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-4">
+                    <div class="box ">
+                        <h3>@item.Class.ClassName</h3>
+                        <ul>
+                            <li><h1>@item.Teacher.TeachName</h1> </li>
+                            <li>
+                                <a  href="/StudentCycle/IntroVideo/@item.TeaLevelID" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox details-link" title="Introduction Video"><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-camera-video-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2.667 3h6.666C10.253 3 11 3.746 11 4.667v6.666c0 .92-.746 1.667-1.667 1.667H2.667C1.747 13 1 12.254 1 11.333V4.667C1 3.747 1.746 3 2.667 3z" />
+    <path d="M7.404 8.697l6.363 3.692c.54.313 1.233-.066 1.233-.697V4.308c0-.63-.693-1.01-1.233-.696L7.404 7.304a.802.802 0 0 0 0 1.393z" />
+</svg></a>
+
+                                @*@Ajax.ActionLink("Intro Video", "Intro Video","StudentCycle",new { id=item.TeaLevelID},
+        new AjaxOptions() { UpdateTargetId=""})*@
+                               
+                            </li>
+
+                        </ul>
+                        <div class="btn-wrap">
+                            @Html.ActionLink("Register Subject", "SaveCourse", new { id = item.TeaLevelID }, new { @class = "btn btn-warning" })
+
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+</section>
+@Html.ActionLink("Back to List", "ListOFSubject", null, new { @class = "btn btn-outline-dark" })

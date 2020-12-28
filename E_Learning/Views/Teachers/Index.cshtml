@@ -1,0 +1,42 @@
+﻿@model IEnumerable<E_Learning.Models.TeacherClass>
+
+@{
+
+
+    ViewBag.Title = "TeachLevel";
+}
+
+
+    <div id="TI">
+        <div class="section-title">
+            <h2> @ViewBag.teachName</h2>
+        </div>
+
+
+        <table class="table table-light table-borderless table-striped">
+            <tr class="bg-dark text-warning">
+                <th>
+                    @Html.DisplayNameFor(model => model.Class.ClassName)
+                </th>
+
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Class.ClassName)
+                    </td>
+
+                    <td>
+
+
+                        @Html.ActionLink("Show All Video", "IndexVideo", new { id = item.TeaLevelID }, new { @class = "btn btn-warning" })
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>

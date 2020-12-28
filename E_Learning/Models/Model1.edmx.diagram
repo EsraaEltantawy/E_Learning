@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="53880483947f475fa76a71b88e08ec75" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.AspNetRole" Width="1.5" PointX="9.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.AspNetUserClaim" Width="1.5" PointX="14.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.AspNetUserLogin" Width="1.5" PointX="14.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.AspNetUser" Width="1.5" PointX="12" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Class" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Student" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.StudentSubject" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.StuSubTea" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Subject" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.SubjectClass" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.sysdiagram" Width="1.5" PointX="5.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Teacher" Width="1.5" PointX="3.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.TeacherClass" Width="1.5" PointX="6" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Thevideo" Width="1.5" PointX="8.25" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_Student_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_SubjectLevel_Level" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_TeacherClass_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_StudentSubject_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_StudentSubject_SubjectClass" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_StuSubTea_StudentSubject" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_StuSubTea_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_SubjectLevel_Subject" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_Teacher_Subject" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_TeacherClass_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK_Video_TeacherClass" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

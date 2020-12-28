@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+
+        <li class="drop-down">
+            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+
+           
+            <ul>
+                @if (User.IsInRole("Student"))
+                {
+                    <li><a href="/StudentCycle/Index#pricing">My Dashboared</a></li>
+                    <li><a href="/StudentCycle/ListOFSubject#pricing">Add Subjects</a></li>
+                    <li><a href="/StudentCycle/Details#pricing">Profile</a></li>
+
+
+                }
+                @if (User.IsInRole("Teacher"))
+                {
+                    <li><a href="/Teachers/Index#TI">My Dashboared</a></li>
+                    <li><a href="/Teachers/Details#TD">Profile</a></li>
+                }
+                @if (User.IsInRole("Admin"))
+                {
+            <li><a href="/Admin/Index#TI">My Dashboared</a></li>
+                }
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                </ul>
+
+            
+        
+        </li>
+    }
+}
+else
+{
+
+    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+
+}

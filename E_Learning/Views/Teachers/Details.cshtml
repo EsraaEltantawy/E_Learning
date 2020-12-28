@@ -1,0 +1,48 @@
+﻿@model E_Learning.Models.Teacher
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div>
+   
+    <hr />
+
+    <table id="TD" class=" table table-striped ">
+        <tr class="text-center">
+        <td>
+            <img  src="~/Image/Teachers/@Model.TeachPhoto" class="img img-thumbnail "style="width:400px;height:300px;" />
+        </td>
+        <td>
+         <h1 class="alert alert-warning"> البيانات الشخصية </h1>
+            <p style="font-size:x-large ">
+                
+                @Html.DisplayFor(model => model.TeachName)
+            </p>
+            <p style="font-size:x-large ">
+               @Html.DisplayFor(model => model.TeachMobile)
+            </p>
+
+              
+             <p style="font-size:x-large ">
+                    @Html.DisplayFor(model => model.TeachAddress)
+              </p>
+
+               
+
+             <p style="font-size:x-large ">
+                 الماده : @Html.DisplayFor(model => model.Subject.SubName)
+             </p>
+
+
+
+        </td>
+        </tr>
+
+    </table>
+</div>
+<p>
+    <a href="/Teachers/Index#pricing" class="btn btn-warning" >My Dashboared</a>
+  @*  @Html.ActionLink("Back to List", "Index",null,new {@class="btn btn-primary" })*@
+</p>

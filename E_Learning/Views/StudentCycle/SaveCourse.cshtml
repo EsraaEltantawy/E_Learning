@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "SaveCourse";
+}
+<h1 class="alert alert-dark text-center text-light"> تم تسجيل الماده بنجاح</h1>
+
+@Html.ActionLink("Back to List", "ListOFTeacher", new { id = @ViewBag.subjLevel },new { @class="btn btn-outline-dark"}) &nbsp;&nbsp;&nbsp;
+@Html.ActionLink("My Dashboard", "Index", new { id = @ViewBag.subjLevel },new { @class = "btn btn-warning" })
+

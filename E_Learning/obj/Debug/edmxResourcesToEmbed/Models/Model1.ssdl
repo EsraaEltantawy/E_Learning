@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Class">
+    <Key>
+      <PropertyRef Name="LevelID" />
+    </Key>
+    <Property Name="LevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StuID" />
+    </Key>
+    <Property Name="StuID" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="StuName" Type="nvarchar" MaxLength="100" />
+    <Property Name="StuAge" Type="int" />
+    <Property Name="StuMobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="StuAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="StuPhoto" Type="nvarchar(max)" />
+    <Property Name="active" Type="bit" />
+    <Property Name="levelID" Type="int" />
+  </EntityType>
+  <EntityType Name="StudentSubject">
+    <Key>
+      <PropertyRef Name="StuSubID" />
+    </Key>
+    <Property Name="StuSubID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubLevelID" Type="int" Nullable="false" />
+    <Property Name="StuId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="StuSubTea">
+    <Key>
+      <PropertyRef Name="StuSubTeaID" />
+    </Key>
+    <Property Name="StuSubTeaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StuSubID" Type="int" />
+    <Property Name="TeachId" Type="nvarchar" MaxLength="128" />
+    <Property Name="ReDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubId" />
+    </Key>
+    <Property Name="SubId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubName" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SubjectClass">
+    <Key>
+      <PropertyRef Name="SubLevelID" />
+    </Key>
+    <Property Name="SubLevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LevelID" Type="int" Nullable="false" />
+    <Property Name="SubId" Type="int" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="SubLevelName" Type="nvarchar" MaxLength="200" />
+    <Property Name="Notes" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeachId" />
+    </Key>
+    <Property Name="TeachId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="TeachName" Type="nvarchar" MaxLength="100" />
+    <Property Name="TeachMobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="TeachAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="TeachPhoto" Type="nvarchar(max)" />
+    <Property Name="SubID" Type="int" />
+    <Property Name="active" Type="bit" />
+  </EntityType>
+  <EntityType Name="TeacherClass">
+    <Key>
+      <PropertyRef Name="TeaLevelID" />
+    </Key>
+    <Property Name="TeaLevelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeachId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClassID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Thevideo">
+    <Key>
+      <PropertyRef Name="VideoId" />
+    </Key>
+    <Property Name="VideoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VideoPath" Type="nvarchar(max)" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="TeaClassID" Type="int" Nullable="false" />
+    <Property Name="NumOfView" Type="int" />
+    <Property Name="IsIntroVideo" Type="bit" />
+    <Property Name="Title" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Class">
+    <End Role="Class" Type="Self.Class" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="LevelID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="levelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentSubject_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="StudentSubject" Type="Self.StudentSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StuID" />
+      </Principal>
+      <Dependent Role="StudentSubject">
+        <PropertyRef Name="StuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentSubject_SubjectClass">
+    <End Role="SubjectClass" Type="Self.SubjectClass" Multiplicity="1" />
+    <End Role="StudentSubject" Type="Self.StudentSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectClass">
+        <PropertyRef Name="SubLevelID" />
+      </Principal>
+      <Dependent Role="StudentSubject">
+        <PropertyRef Name="SubLevelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StuSubTea_StudentSubject">
+    <End Role="StudentSubject" Type="Self.StudentSubject" Multiplicity="0..1" />
+    <End Role="StuSubTea" Type="Self.StuSubTea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentSubject">
+        <PropertyRef Name="StuSubID" />
+      </Principal>
+      <Dependent Role="StuSubTea">
+        <PropertyRef Name="StuSubID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StuSubTea_Teacher">
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="0..1" />
+    <End Role="StuSubTea" Type="Self.StuSubTea" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="TeachId" />
+      </Principal>
+      <Dependent Role="StuSubTea">
+        <PropertyRef Name="TeachId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectLevel_Level">
+    <End Role="Class" Type="Self.Class" Multiplicity="1" />
+    <End Role="SubjectClass" Type="Self.SubjectClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="LevelID" />
+      </Principal>
+      <Dependent Role="SubjectClass">
+        <PropertyRef Name="LevelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectLevel_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="SubjectClass" Type="Self.SubjectClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubId" />
+      </Principal>
+      <Dependent Role="SubjectClass">
+        <PropertyRef Name="SubId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teacher_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="0..1" />
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="SubID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClass_Class">
+    <End Role="Class" Type="Self.Class" Multiplicity="1" />
+    <End Role="TeacherClass" Type="Self.TeacherClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="LevelID" />
+      </Principal>
+      <Dependent Role="TeacherClass">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClass_Teacher">
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="1" />
+    <End Role="TeacherClass" Type="Self.TeacherClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="TeachId" />
+      </Principal>
+      <Dependent Role="TeacherClass">
+        <PropertyRef Name="TeachId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Video_TeacherClass">
+    <End Role="TeacherClass" Type="Self.TeacherClass" Multiplicity="1" />
+    <End Role="Thevideo" Type="Self.Thevideo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TeacherClass">
+        <PropertyRef Name="TeaLevelID" />
+      </Principal>
+      <Dependent Role="Thevideo">
+        <PropertyRef Name="TeaClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelsStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Class" EntityType="Self.Class" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentSubject" EntityType="Self.StudentSubject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StuSubTea" EntityType="Self.StuSubTea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectClass" EntityType="Self.SubjectClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teacher" EntityType="Self.Teacher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherClass" EntityType="Self.TeacherClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Thevideo" EntityType="Self.Thevideo" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Class" Association="Self.FK_Student_Class">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentSubject_Student" Association="Self.FK_StudentSubject_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="StudentSubject" EntitySet="StudentSubject" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentSubject_SubjectClass" Association="Self.FK_StudentSubject_SubjectClass">
+      <End Role="SubjectClass" EntitySet="SubjectClass" />
+      <End Role="StudentSubject" EntitySet="StudentSubject" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StuSubTea_StudentSubject" Association="Self.FK_StuSubTea_StudentSubject">
+      <End Role="StudentSubject" EntitySet="StudentSubject" />
+      <End Role="StuSubTea" EntitySet="StuSubTea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StuSubTea_Teacher" Association="Self.FK_StuSubTea_Teacher">
+      <End Role="Teacher" EntitySet="Teacher" />
+      <End Role="StuSubTea" EntitySet="StuSubTea" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectLevel_Level" Association="Self.FK_SubjectLevel_Level">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="SubjectClass" EntitySet="SubjectClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectLevel_Subject" Association="Self.FK_SubjectLevel_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="SubjectClass" EntitySet="SubjectClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teacher_Subject" Association="Self.FK_Teacher_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="Teacher" EntitySet="Teacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClass_Class" Association="Self.FK_TeacherClass_Class">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="TeacherClass" EntitySet="TeacherClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClass_Teacher" Association="Self.FK_TeacherClass_Teacher">
+      <End Role="Teacher" EntitySet="Teacher" />
+      <End Role="TeacherClass" EntitySet="TeacherClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Video_TeacherClass" Association="Self.FK_Video_TeacherClass">
+      <End Role="TeacherClass" EntitySet="TeacherClass" />
+      <End Role="Thevideo" EntitySet="Thevideo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

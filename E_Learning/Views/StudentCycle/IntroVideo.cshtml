@@ -1,0 +1,21 @@
+﻿@model E_Learning.Models.Thevideo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IntroVideo</title>
+</head>
+<body>
+    <div>
+        <video controls="controls" style="width:871px;height: 380px;">
+            <source src="~/video/@Model.VideoPath" type="video/mp4" />
+        </video>
+    </div>
+</body>
+</html>
